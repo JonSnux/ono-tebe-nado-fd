@@ -22,7 +22,7 @@
   font-size: 18px;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
   list-style-type: none;
 }
 
@@ -45,13 +45,91 @@
 }
 
 .cover {
+  position: relative;
   margin: 0 0 180px 0;
-  padding: 50px;
+  padding: 165px 50px 50px 50px;
   background: url(/images/cover.jpg);
+  min-height: 757px;
 }
 
-.description {
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
 
+.cover__title {
+  /* display: grid;
+  grid-row: repeat(3, 1fr);
+  grid-column: repeat(3, 1fr);
+  column-gap: 44.5px;
+  justify-content: start; */
+  font-size: 100px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 30px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.aligned-text {
+  display: block;
+  margin-bottom: 17px;
+} 
+
+
+.aligned-text_left {
+  text-align: left;
+}
+
+.aligned-text_center {
+  text-align: center;
+  padding-left: 31px;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative;
+  bottom: 0; */
+  margin-top: 105px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: white;
+  word-spacing: 19px;
+}
+
+.word-spacing-extended {
+  word-spacing: 18px;
+} 
+
+.word-spacing-reduced {
+  word-spacing: 17px;
+}
+
+.bet-button {
+  padding: 12px 32px 11px 31px;
+  border: 1px solid white;
+  background: transparent;
+  justify-self: flex-start;
+}
+.bet-button-text {
+  text-transform: uppercase;
+  font-size: 22px;
+  color: white;
 }
 
 .lots {

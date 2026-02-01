@@ -37,14 +37,17 @@
     </header>
     <main>
       <section class="cover">
-        <h1 class="title">
-          <span>оно</span>
-          <span>тебе</span>
-          <span>надо</span>
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="aligned-text aligned-text_left letter-spacing-extended">оно</span>
+          <span class="aligned-text aligned-text_center letter-spacing-extended">тебе</span>
+          <span class="aligned-text aligned-text_right letter-spacing-extended">над<span class="no-letter-spacing">о</span></span>
         </h1>
-        <div class="description">
-          <p>Аукцион вещей, в которые никто не верил</p>
-          <button>Сделать ставку</button>
+        <div class="cover__description">
+          <p class="cover__description-text">Аукцион вещей,
+            <span class="word-spacing-extended">в которые никто</span>
+            <span class="word-spacing-reduced"> не верил</span></p>
+          <button class="bet-button"><span class="bet-button-text">Сделать ставку</span></button>
         </div>
       </section>
       <section class="lots">
@@ -53,7 +56,7 @@
           <li class="lots__card-list-item">
             <a class="card-link" href="">
               <article class="card card_type_film">
-                <div class="overlay"></div>
+                <!-- <div class="overlay"></div> -->
                 <h2 class="card__title">Фильм режиссёра, который бросил киношколу</h2>
                 <p class="card__text">Не просто бросил, а ушёл с первой лекции. 
                   Какой была бы ваша ставка, если бы вы не знали, что режиссёр — 
@@ -64,7 +67,7 @@
           <li class="lots__card-list-item">
             <a class="card-link" href="">
               <article class="card card_type_book">
-                <div class="overlay"></div>
+                <!-- <div class="overlay"></div> -->
                 <h2 class="card__title">Книга, где описан один скучный день из жизни рекламного 
                   агента</h2>
                 <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков 
@@ -78,7 +81,7 @@
           <li class="lots__card-list-item">
             <a class="card-link" href="">
               <article class="card card_type_picture">
-                <div class="overlay"></div>
+                <!-- <div class="overlay"></div> -->
                 <h2 class="card__title">Картина, которую повторит даже 5-летний сын маминой 
                   подруги</h2>
                 <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и 
