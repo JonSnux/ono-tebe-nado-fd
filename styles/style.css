@@ -52,6 +52,7 @@
   padding: 165px 50px 50px 50px;
   background: url(/images/cover.jpg);
   background-position: center;
+  background-size: cover;
   min-height: 757px;
 }
 
