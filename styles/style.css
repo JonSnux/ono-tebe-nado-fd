@@ -7,16 +7,17 @@
 
 .header__logo {
   display: block;
-  width: 136px;
+  width: 148px;
   height: 105px;
 }
 
 .header__logo-image {
+  height: 100%;
 }
 
 .header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 33px;
   list-style: circle;
   text-transform: lowercase;
   font-size: 18px;
@@ -49,6 +50,7 @@
   margin: 0 0 180px 0;
   padding: 165px 50px 50px 50px;
   background: url(/images/cover.jpg);
+  background-position: center;
   min-height: 757px;
 }
 
@@ -59,14 +61,11 @@
 }
 
 .cover__title {
-  /* display: grid;
-  grid-row: repeat(3, 1fr);
-  grid-column: repeat(3, 1fr);
-  column-gap: 44.5px;
-  justify-content: start; */
   font-size: 100px;
   text-transform: uppercase;
   color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .letter-spacing-extended {
@@ -100,9 +99,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: relative;
-  bottom: 0; */
   margin-top: 105px;
+  position: relative;
+  z-index: 1;
 }
 
 .cover__description-text {
